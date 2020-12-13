@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-class Counter extends ChangeNotifier{
+class Counter with ChangeNotifier{
   int _counter;
   Counter(this._counter);
 
